@@ -2,7 +2,7 @@
 second test
 
 
-##Git Command:
+## Git Command:
  pwd:
 ls
 1. 命令格式：
@@ -21,7 +21,7 @@ ls [选项] [目录名]
 
 
 
-##Git 克隆现有的仓库
+## Git 克隆现有的仓库
 Git clone [ url ].  Eg: $ git clone  https://github.com/ChyweiChen/Assignment-of-OPP
 如果想要在克隆远程仓库的时候自定义本地仓库，可使用以下命令：
 $ git clone https://github.com/ChyweiChen/Assignment-of-OPP mygit-start  
