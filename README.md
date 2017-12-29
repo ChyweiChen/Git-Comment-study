@@ -97,4 +97,36 @@ $git remote
 $git remote show [remote name]
 
 
+# 分支管理
+<br/>
+1.创建分支
+<br/>
+$git branch <branch name>
+<br/>
+<br/>
+2.列出当前可用分支
+<br/>
+$git branch
+<br/>
+<br/>
+3.在分支之间切换
+<br/>
+$git checkout <branch name>
+<br/>
+<br/>
+
+3.删除分支newbranch(在删除该分支之前要切换到另一个分支)
+<br/>
+$git branch -D newbranch
+<br/>
+<br/>
+
+4.重新命名分支(将newbranch改名为testbranch)
+<br/>
+$git branch -m nwebranch testbranch
+<br/>
+<br/>
+5.合并两个分支(将分支testbranch合并到分支master分支上)
+<br/>
+$git merge testbranch
 
